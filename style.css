@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #272626;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#editor {
+  width: 80%;
+  height: 80%;
+  border: 2px solid #000;
+  background-color: #272626;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 19px; /* Increased by 3 points */
+  line-height: 1.6;
+  overflow-y: auto;
+  color: #fff; /* Set text color to white */
+  box-shadow: 0 0 10px rgba(#272626);
+}
